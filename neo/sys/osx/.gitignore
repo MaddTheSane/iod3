@@ -1,2 +1,5 @@
 project.xcworkspace/
 xcuserdata/
+*.pbxuser
+*.mode?
+*.mode?v?

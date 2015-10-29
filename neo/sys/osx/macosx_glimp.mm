@@ -57,13 +57,16 @@ glwstate_t glw_state;
 static bool isHidden = false;
 
 @interface NSOpenGLContext (CGLContextAccess)
-- (CGLContextObj) cglContext;
+- (CGLContextObj) cglContext NS_RETURNS_INNER_POINTER;
 @end
 
 @implementation NSOpenGLContext (CGLContextAccess)
 - (CGLContextObj) cglContext;
 {
-	return _contextAuxiliary;
+	if ([self respondsToSelector:@selector(CGLContextObj)]) {
+		return self.CGLContextObj;
+	}
+	return _CGLContext;
 }
 @end
 
@@ -1499,7 +1502,7 @@ NSDictionary *Sys_GetMatchingDisplayMode( glimpParms_t parms ) {
 	modeCount = [displayModes count];
 	if (verbose) {
 		common->Printf( "%d modes avaliable\n", modeCount);
-		common->Printf( "Current mode is %s\n", [[(id)CGDisplayCurrentMode(glw_state.display) description] cString]);
+		common->Printf( "Current mode is %s\n", [[(id)CGDisplayCurrentMode(glw_state.display) description] UTF8String]);
 	}
     
 	// Default to the current desktop mode
@@ -1511,7 +1514,7 @@ NSDictionary *Sys_GetMatchingDisplayMode( glimpParms_t parms ) {
         
 		mode = [displayModes objectAtIndex: modeIndex];
 		if (verbose) {
-			common->Printf( " mode %d -- %s\n", modeIndex, [[mode description] cString]);
+			common->Printf( " mode %d -- %s\n", modeIndex, [[mode description] UTF8String]);
 		}
 
 		// Make sure we get the right size

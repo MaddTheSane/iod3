@@ -313,13 +313,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = d3xp.xcodeproj; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55CB2F411BE2AE25007A46E8 /* macosx_sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macosx_sys.h; sourceTree = "<group>"; };
 		8122565F0912BC78005D34B9 /* snd_efxfile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = snd_efxfile.cpp; path = ../../sound/snd_efxfile.cpp; sourceTree = SOURCE_ROOT; };
 		812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GEWindowWrapper_stub.cpp; path = ../../tools/guied/GEWindowWrapper_stub.cpp; sourceTree = SOURCE_ROOT; };
 		812256630912BC79005D34B9 /* edit_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = edit_stub.cpp; path = ../../tools/edit_stub.cpp; sourceTree = SOURCE_ROOT; };
@@ -666,11 +667,11 @@
 		812259FD0912C27C005D34B9 /* Doom 3.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "Doom 3.rsrc"; sourceTree = "<group>"; };
 		812259FE0912C27C005D34B9 /* Doom3.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Doom3.icns; sourceTree = "<group>"; };
 		81225A0C0912C2D3005D34B9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASLCore.nib; sourceTree = "<group>"; };
-		81225A0F0912C2E9005D34B9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81225A0F0912C2E9005D34B9 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225A110912C300005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ASLCore.nib; sourceTree = "<group>"; };
 		81225A120912C310005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		81225A130912C323005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		81225A140912C323005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81225A130912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81225A140912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225B840912C731005D34B9 /* game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = game.xcodeproj; sourceTree = "<group>"; };
 		81326DC1099C162D003C4788 /* curl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curl.xcodeproj; path = SubProjects/curl.xcodeproj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -938,6 +939,7 @@
 		8122569C0912BC79005D34B9 /* osx */ = {
 			isa = PBXGroup;
 			children = (
+				55CB2F411BE2AE25007A46E8 /* macosx_sys.h */,
 				8122569D0912BC79005D34B9 /* macosx_guids.cpp */,
 				812256A00912BC79005D34B9 /* macosx_misc.mm */,
 				812256A10912BC79005D34B9 /* PickMonitor.cpp */,

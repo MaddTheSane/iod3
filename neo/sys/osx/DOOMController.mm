@@ -105,7 +105,7 @@ static OSErr DoRegCodeDialog( char* ioRegCode1 );
 		NSAssert(sizeof(bool) == 1, @"sizeof(bool) should equal 1 byte");
         [self quakeMain];
     } NS_HANDLER {
-        Sys_Error( (const char *)[ [ localException reason ] cString ] );
+        Sys_Error( (const char *)[ [ localException reason ] UTF8String ] );
     } NS_ENDHANDLER;
     Sys_Quit();
 }
@@ -206,7 +206,7 @@ extern void CL_Quit_f(void);
 
         requestedServer = [pasteboard stringForType:NSStringPboardType];
         if (requestedServer) {
-            Cbuf_AddText( va( "connect %s\n", [requestedServer cString]));
+            Cbuf_AddText( va( "connect %s\n", [requestedServer UTF8String]));
             return;
         }
     }
@@ -223,7 +223,7 @@ extern void CL_Quit_f(void);
 
         requestedCommand = [pasteboard stringForType:NSStringPboardType];
         if (requestedCommand) {
-            Cbuf_AddText(va("%s\n", [requestedCommand cString]));
+            Cbuf_AddText(va("%s\n", [requestedCommand UTF8String]));
             return;
         }
     }
@@ -256,7 +256,7 @@ extern void CL_Quit_f(void);
     arguments = [processInfo arguments];
     argumentCount = [arguments count];
     for (argumentIndex = 0; argumentIndex < argumentCount; argumentIndex++) {
-        argv[argc++] = strdup([[arguments objectAtIndex:argumentIndex] cString]);
+        argv[argc++] = strdup([[arguments objectAtIndex:argumentIndex] UTF8String]);
     }
     if (![[NSFileManager defaultManager] changeCurrentDirectoryPath:[[NSBundle mainBundle] resourcePath]]) {
         Sys_Error("Could not access application resources");
@@ -303,7 +303,7 @@ extern void CL_Quit_f(void);
 
                         cdPath = [filenames objectAtIndex:0];
                         [[NSUserDefaults standardUserDefaults] setObject:cdPath forKey:@"CDPath"];
-                        cddir = strdup([cdPath cString]);
+                        cddir = strdup([cdPath UTF8String]);
                     }
                 }
             }
@@ -312,7 +312,7 @@ extern void CL_Quit_f(void);
     */
 /*
     if (cddir && *cddir != '\0') {
-        SetProgramPath([[[NSString stringWithCString:cddir] stringByAppendingPathComponent:@"/x"] cString]);
+        SetProgramPath([[[NSString stringWithCString:cddir] stringByAppendingPathComponent:@"/x"] fileSystemRepresentation]);
     }
 */
 
@@ -382,7 +382,7 @@ extern void CL_Quit_f(void);
 			retval = FALSE;
 		}
 		else {
-			[userDefaults setObject:[NSString stringWithCString: regCode] forKey:kRegKey];
+			[userDefaults setObject:@(regCode) forKey:kRegKey];
 			[userDefaults synchronize];
 		}
 	}
@@ -397,7 +397,7 @@ extern void CL_Quit_f(void);
 	if ( err || gestaltOSVersion < 0x1038 ) {
 		NSBundle *thisBundle = [ NSBundle mainBundle ];
 		NSString *messsage = [ thisBundle localizedStringForKey:@"InsufficientOS" value:@"No translation" table:nil ];
-		NSRunAlertPanel(@GAME_NAME, messsage, nil, nil, nil);
+		NSRunAlertPanel(@GAME_NAME, @"%@", nil, nil, nil, messsage);
 		return FALSE;
 	}
 	return TRUE;
@@ -417,7 +417,7 @@ Sys_EXEPath
 */
 const char *Sys_EXEPath( void ) {
 	static char exepath[ 1024 ];
-	strncpy( exepath, [ [ [ NSBundle mainBundle ] bundlePath ] cString ], 1024 );
+	strncpy( exepath, [ [ [ NSBundle mainBundle ] bundlePath ] fileSystemRepresentation ], 1024 );
 	return exepath;
 }
 
@@ -428,9 +428,9 @@ const char *Sys_EXEPath( void ) {
  */
 const char *Sys_DefaultSavePath(void) {
 #if defined( ID_DEMO_BUILD )
-	sprintf( savepath, "%s/Library/Application Support/Doom 3 Demo", [NSHomeDirectory() cString] );
+	sprintf( savepath, "%s/Library/Application Support/Doom 3 Demo", [NSHomeDirectory() fileSystemRepresentation] );
 #else
-	sprintf( savepath, "%s/Library/Application Support/Doom 3", [NSHomeDirectory() cString] );
+	sprintf( savepath, "%s/Library/Application Support/Doom 3", [NSHomeDirectory() fileSystemRepresentation] );
 #endif
 	return savepath.c_str();
 }
@@ -442,7 +442,7 @@ Sys_DefaultBasePath
 */
 const char *Sys_DefaultBasePath(void) {
 	static char basepath[ 1024 ];
-	strncpy( basepath, [ [ [ NSBundle mainBundle ] bundlePath ] cString ], 1024 );
+	strncpy( basepath, [ [ [ NSBundle mainBundle ] bundlePath ] fileSystemRepresentation ], 1024 );
 	char *snap = strrchr( basepath, '/' );
 	if ( snap ) {
 		*snap = '\0';

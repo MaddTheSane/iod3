@@ -24,6 +24,8 @@ void Sys_AnnoyingBanner();
 bool Sys_Hide();
 bool Sys_Unhide();
 
+typedef uint32_t CGTableCount;
+
 typedef struct {
     CGDirectDisplayID     display;
     CGTableCount          tableSize;

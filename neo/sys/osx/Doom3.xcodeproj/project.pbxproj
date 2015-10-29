@@ -299,14 +299,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = d3xp.xcodeproj; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2DFD49BE147F5F1000C51B13 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = SDKs/MacOSX10.6.sdk/usr/lib/libcurl.dylib; sourceTree = DEVELOPER_DIR; };
+		2DFD49BE147F5F1000C51B13 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55CB2F411BE2AE25007A46E8 /* macosx_sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macosx_sys.h; sourceTree = "<group>"; };
 		8122565F0912BC78005D34B9 /* snd_efxfile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = snd_efxfile.cpp; path = ../../sound/snd_efxfile.cpp; sourceTree = SOURCE_ROOT; };
 		812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GEWindowWrapper_stub.cpp; path = ../../tools/guied/GEWindowWrapper_stub.cpp; sourceTree = SOURCE_ROOT; };
 		812256630912BC79005D34B9 /* edit_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = edit_stub.cpp; path = ../../tools/edit_stub.cpp; sourceTree = SOURCE_ROOT; };
@@ -646,18 +647,18 @@
 		8122580C0912BC79005D34B9 /* CollisionModel_translate.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionModel_translate.cpp; sourceTree = "<group>"; };
 		812259790912BF1D005D34B9 /* idlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = idlib.xcodeproj; sourceTree = "<group>"; };
 		812259890912BF38005D34B9 /* oggVorbis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = oggVorbis.xcodeproj; sourceTree = "<group>"; };
-		812259A30912BFDC005D34B9 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		812259A40912BFDC005D34B9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		812259A60912BFDC005D34B9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		812259B40912C056005D34B9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		812259A30912BFDC005D34B9 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		812259A40912BFDC005D34B9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		812259A60912BFDC005D34B9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		812259B40912C056005D34B9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		812259FD0912C27C005D34B9 /* Doom 3.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "Doom 3.rsrc"; sourceTree = "<group>"; };
 		812259FE0912C27C005D34B9 /* Doom3.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Doom3.icns; sourceTree = "<group>"; };
 		81225A0C0912C2D3005D34B9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASLCore.nib; sourceTree = "<group>"; };
-		81225A0F0912C2E9005D34B9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81225A0F0912C2E9005D34B9 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225A110912C300005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ASLCore.nib; sourceTree = "<group>"; };
 		81225A120912C310005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		81225A130912C323005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		81225A140912C323005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81225A130912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81225A140912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225B840912C731005D34B9 /* game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = game.xcodeproj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Doom 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doom 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -685,6 +686,10 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				812259B40912C056005D34B9 /* CoreAudio.framework */,
+				812259A30912BFDC005D34B9 /* Carbon.framework */,
+				812259A40912BFDC005D34B9 /* IOKit.framework */,
+				812259A60912BFDC005D34B9 /* OpenGL.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -720,14 +725,11 @@
 			isa = PBXGroup;
 			children = (
 				2DFD49BE147F5F1000C51B13 /* libcurl.dylib */,
-				25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */,
+				55CB2F3E1BE2AB11007A46E8 /* Subprojects */,
 				812256420912BC26005D34B9 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				812259790912BF1D005D34B9 /* idlib.xcodeproj */,
-				812259890912BF38005D34B9 /* oggVorbis.xcodeproj */,
-				81225B840912C731005D34B9 /* game.xcodeproj */,
 			);
 			name = Doom3;
 			sourceTree = "<group>";
@@ -749,14 +751,22 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				812259B40912C056005D34B9 /* CoreAudio.framework */,
-				812259A30912BFDC005D34B9 /* Carbon.framework */,
-				812259A40912BFDC005D34B9 /* IOKit.framework */,
-				812259A60912BFDC005D34B9 /* OpenGL.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55CB2F3E1BE2AB11007A46E8 /* Subprojects */ = {
+			isa = PBXGroup;
+			children = (
+				25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */,
+				81326DC1099C162D003C4788 /* curl.xcodeproj */,
+				812259790912BF1D005D34B9 /* idlib.xcodeproj */,
+				812259890912BF38005D34B9 /* oggVorbis.xcodeproj */,
+				81225B840912C731005D34B9 /* game.xcodeproj */,
+			);
+			name = Subprojects;
 			sourceTree = "<group>";
 		};
 		812256420912BC26005D34B9 /* Sources */ = {
@@ -916,6 +926,7 @@
 		8122569C0912BC79005D34B9 /* osx */ = {
 			isa = PBXGroup;
 			children = (
+				55CB2F411BE2AE25007A46E8 /* macosx_sys.h */,
 				8122569D0912BC79005D34B9 /* macosx_guids.cpp */,
 				812256A00912BC79005D34B9 /* macosx_misc.mm */,
 				812256A10912BC79005D34B9 /* PickMonitor.cpp */,
@@ -1324,6 +1335,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "id Software LLC";
 			};
 			buildConfigurationList = 8191F1640912BBCD006AB5A4 /* Build configuration list for PBXProject "Doom3" */;
@@ -1704,7 +1716,7 @@
 		8191F1610912BBCD006AB5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1733,6 +1745,7 @@
 					OpenAL,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.doom3;
 				PRODUCT_NAME = "Doom 3";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -1743,7 +1756,7 @@
 		8191F1620912BBCD006AB5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = YES;
@@ -1777,6 +1790,7 @@
 					OpenAL,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.doom3;
 				PRODUCT_NAME = "Doom 3";
 				SDKROOT = macosx;
 				SYMROOT = build;
@@ -1789,6 +1803,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
@@ -1799,11 +1814,12 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				MAIN_CPP_DEFINES = _DEBUG;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fpermissive",
 				);
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Debug;
@@ -1831,7 +1847,7 @@
 					"-fomit-frame-pointer",
 					"-fno-common",
 				);
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Release;

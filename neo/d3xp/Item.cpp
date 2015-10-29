@@ -294,7 +294,7 @@ void idItem::Spawn( void ) {
 		if ( !ent ) {
 			gameLocal.Error( "Item couldn't find owner '%s'", giveTo.c_str() );
 		}
-		PostEventMS( &EV_Touch, 0, ent, NULL );
+		PostEventMS( &EV_Touch, 0, ent, 0 );
 	}
 
 #ifdef CTF
@@ -772,7 +772,7 @@ void idItemTeam::Spawn( void ) {
 idItemTeam::LoadScript
 ===============
 */
-function_t * idItemTeam::LoadScript( char * script ) {
+function_t * idItemTeam::LoadScript( const char * script ) {
 	function_t * function = NULL;
 	idStr funcname = spawnArgs.GetString( script, "" );
 	if ( funcname.Length() ) {

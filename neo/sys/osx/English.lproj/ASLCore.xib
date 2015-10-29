@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Carbon.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1030</int>
+		<int key="IBDocument.SystemTarget">1050</int>
 		<string key="IBDocument.SystemVersion">10K549</string>
 		<string key="IBDocument.InterfaceBuilderVersion">851</string>
 		<string key="IBDocument.AppKitVersion">1038.36</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions"/>
-		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs"/>
+		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
+			<integer value="250"/>
+			<integer value="184"/>
+			<integer value="289"/>
+		</array>
 		<array key="IBDocument.PluginDependencies" id="0"/>
 		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="114774836">
@@ -287,7 +291,7 @@
 				<nil key="classID"/>
 				<string key="title">Doom 3 Preferences</string>
 				<object class="IBHIRootControl" key="rootControl" id="727139665">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="IBHIGroupBox" id="271898861">
@@ -313,7 +317,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -341,7 +345,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="0" key="thickness"/>
 											<integer value="3" key="contentType"/>
@@ -375,7 +379,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -403,7 +407,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="0" key="thickness"/>
 											<integer value="3" key="contentType"/>
@@ -437,7 +441,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -465,7 +469,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="0" key="variableWidth"/>
 											<integer value="1" key="selectedIndex"/>
@@ -587,7 +591,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -615,7 +619,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="0" key="variableWidth"/>
 											<integer value="1" key="selectedIndex"/>
@@ -709,7 +713,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -737,7 +741,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<string key="title">Multiple Monitors:</string>
 											<nil key="textColor"/>
@@ -760,7 +764,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -788,7 +792,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="0" key="buttonType"/>
 											<integer value="6" key="iconPosition"/>
@@ -813,7 +817,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -841,7 +845,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Monitor Options</string>
 							<integer value="1" key="autoToggle"/>
@@ -868,7 +872,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -896,7 +900,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">This dialog will always be displayed if the command key is held down when the game starts.</string>
 							<nil key="textColor"/>
@@ -919,7 +923,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -947,7 +951,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -970,7 +974,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -998,7 +1002,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1021,7 +1025,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1049,7 +1053,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="state"/>
 							<integer value="1" key="autoToggle"/>
@@ -1070,7 +1074,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1098,7 +1102,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="state"/>
 							<integer value="1" key="autoToggle"/>
@@ -1106,6 +1110,7 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{568, 241}</string>
+					<reference key="NSSuperview"/>
 					<integer value="0" key="controlSignature"/>
 					<integer value="0" key="controlID"/>
 					<integer value="1" key="enabled"/>
@@ -1116,7 +1121,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -1144,14 +1149,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
-				<string key="windowRectAsNSRect">{{261, 640}, {568, 241}}</string>
-				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
+				<string key="windowRectAsNSRect">{{382, 265}, {568, 241}}</string>
+				<string key="autoScreenRectAsNSRect">{{0, 91}, {1440, 723}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="175329550">
 				<integer value="0" key="doesNotHide"/>
@@ -1191,7 +1196,7 @@
 				<nil key="classID"/>
 				<string key="title">&lt;&lt;&lt;kGameName&gt;&gt;&gt;</string>
 				<object class="IBHIRootControl" key="rootControl" id="845546045">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="IBHIGroupBox" id="1008701478">
@@ -1217,7 +1222,7 @@
 											<nil key="helpTagExtendedText"/>
 											<nil key="helpTagText"/>
 											<integer value="0" key="helpTagDisplaySide"/>
-											<reference key="auxiliaryProperties" ref="0"/>
+											<array key="auxiliaryProperties"/>
 											<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 												<nil key="bindingTopView"/>
 												<integer value="0" key="bindingTopKind"/>
@@ -1245,7 +1250,7 @@
 												<real value="0.0" key="positionYOffset"/>
 											</object>
 											<integer value="0" key="layoutSuspended"/>
-											<reference key="instantiationProperties" ref="0"/>
+											<array key="instantiationProperties"/>
 											<nil key="classID"/>
 											<integer value="32" key="featureBits"/>
 										</object>
@@ -1266,7 +1271,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1294,7 +1299,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Select a Monitor</string>
 							<integer value="1" key="autoToggle"/>
@@ -1321,7 +1326,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1349,7 +1354,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1372,7 +1377,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1400,7 +1405,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1410,6 +1415,7 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{408, 296}</string>
+					<reference key="NSSuperview"/>
 					<integer value="0" key="controlSignature"/>
 					<integer value="0" key="controlID"/>
 					<integer value="1" key="enabled"/>
@@ -1420,7 +1426,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -1448,14 +1454,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{175, 366}, {408, 296}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="364230470">
 				<integer value="0" key="doesNotHide"/>
@@ -1513,7 +1519,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1541,7 +1547,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1564,7 +1570,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1592,7 +1598,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Please insert the disc "Doom 3" or press Quit.</string>
 							<nil key="textColor"/>
@@ -1615,7 +1621,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1643,7 +1649,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="132" key="contentType"/>
 							<integer value="1667523698" key="contentResID"/>
@@ -1663,7 +1669,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -1691,14 +1697,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{341, 648}, {393, 128}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="77187826">
 				<integer value="0" key="doesNotHide"/>
@@ -1756,7 +1762,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1784,7 +1790,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">This dialog will always be displayed if the shift key is held down when the game starts.</string>
 							<nil key="textColor"/>
@@ -1807,7 +1813,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1835,7 +1841,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1858,7 +1864,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1886,7 +1892,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -1909,7 +1915,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1937,7 +1943,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Command Line:</string>
 							<nil key="textColor"/>
@@ -1960,7 +1966,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -1988,7 +1994,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="secure"/>
 							<integer value="0" key="usesInlineInput"/>
@@ -2014,7 +2020,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2042,7 +2048,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="state"/>
 							<integer value="1" key="autoToggle"/>
@@ -2063,7 +2069,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2091,7 +2097,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2111,7 +2117,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -2139,14 +2145,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{42, 290}, {537, 180}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="561565122">
 				<integer value="0" key="doesNotHide"/>
@@ -2204,7 +2210,7 @@
 							<string key="helpTagExtendedText">Ignore all warnings and assertions in the future. This warning dialog wll no longer be displayed.</string>
 							<string key="helpTagText">Ignore all warnings and assertions in the future</string>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2232,7 +2238,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2255,7 +2261,7 @@
 							<string key="helpTagExtendedText">Continue running the application. If this same condition occurs again, you will be notified.</string>
 							<string key="helpTagText">Continue running the application</string>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2283,7 +2289,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2306,7 +2312,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2334,7 +2340,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="contentType"/>
 							<integer value="0" key="contentResID"/>
@@ -2357,7 +2363,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2385,7 +2391,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Message</string>
 							<nil key="textColor"/>
@@ -2408,7 +2414,7 @@
 							<string key="helpTagExtendedText">Ignore all future warnings and assertions everywhere they occur. If this same condition occurs again, you will not be notified.</string>
 							<string key="helpTagText">Ignore all future warnings and assertions everywhere</string>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2436,7 +2442,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2459,7 +2465,7 @@
 							<nil key="helpTagExtendedText"/>
 							<string key="helpTagText">Drop into the debugger</string>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2487,7 +2493,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2510,7 +2516,7 @@
 							<nil key="helpTagExtendedText"/>
 							<string key="helpTagText">Force Quit the applicatiion</string>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2538,7 +2544,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2561,7 +2567,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2589,7 +2595,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">File and Line Number</string>
 							<nil key="textColor"/>
@@ -2609,7 +2615,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -2637,14 +2643,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{67, 495}, {537, 187}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="28048964">
 				<integer value="0" key="doesNotHide"/>
@@ -2702,7 +2708,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="1" key="bindingTopKind"/>
@@ -2730,7 +2736,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="featureBits"/>
 						</object>
@@ -2749,7 +2755,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2777,7 +2783,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2800,7 +2806,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2828,7 +2834,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -2851,7 +2857,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -2879,7 +2885,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">End User License Agreement</string>
 							<nil key="textColor"/>
@@ -2899,7 +2905,7 @@
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -2927,14 +2933,14 @@
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{152, 207}, {600, 380}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 			<object class="IBHIWindowTemplate" id="113093777">
 				<integer value="0" key="doesNotHide"/>
@@ -2992,7 +2998,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -3020,7 +3026,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="0" key="secure"/>
 							<integer value="0" key="usesInlineInput"/>
@@ -3046,7 +3052,7 @@
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -3074,7 +3080,7 @@
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string type="base64-UTF8" key="title">UmVnaXN0cmF0aW9uIGNvZGUgaXMgbG9jYXRlZCBvbiB0aGUgYmFjayBvZiB5b3VyIERWRCBjYXNlLiAK
 VGhlIHJlZ2lzdHJhdGlvbiBjb2RlIHdpbGwgYmUgb2YgdGhlIGZvcm0gJ1hYWFhYWFhYWFhYWFhYWFgg
@@ -3099,7 +3105,7 @@ WFgnLg</string>
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -3127,7 +3133,7 @@ WFgnLg</string>
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<string key="title">Doom 3 Registration Code:</string>
 							<nil key="textColor"/>
@@ -3150,7 +3156,7 @@ WFgnLg</string>
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -3178,7 +3184,7 @@ WFgnLg</string>
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="1" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -3201,7 +3207,7 @@ WFgnLg</string>
 							<nil key="helpTagExtendedText"/>
 							<nil key="helpTagText"/>
 							<integer value="0" key="helpTagDisplaySide"/>
-							<reference key="auxiliaryProperties" ref="0"/>
+							<array key="auxiliaryProperties"/>
 							<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 								<nil key="bindingTopView"/>
 								<integer value="0" key="bindingTopKind"/>
@@ -3229,7 +3235,7 @@ WFgnLg</string>
 								<real value="0.0" key="positionYOffset"/>
 							</object>
 							<integer value="0" key="layoutSuspended"/>
-							<reference key="instantiationProperties" ref="0"/>
+							<array key="instantiationProperties"/>
 							<nil key="classID"/>
 							<integer value="2" key="buttonType"/>
 							<integer value="6" key="iconPosition"/>
@@ -3249,7 +3255,7 @@ WFgnLg</string>
 					<nil key="helpTagExtendedText"/>
 					<nil key="helpTagText"/>
 					<integer value="0" key="helpTagDisplaySide"/>
-					<reference key="auxiliaryProperties" ref="0"/>
+					<array key="auxiliaryProperties"/>
 					<object class="IBCarbonHILayoutInfo" key="layoutInfo">
 						<nil key="bindingTopView"/>
 						<integer value="0" key="bindingTopKind"/>
@@ -3277,14 +3283,14 @@ WFgnLg</string>
 						<real value="0.0" key="positionYOffset"/>
 					</object>
 					<integer value="0" key="layoutSuspended"/>
-					<reference key="instantiationProperties" ref="0"/>
+					<array key="instantiationProperties"/>
 					<nil key="classID"/>
 				</object>
 				<integer value="0" key="autoPositionMask"/>
 				<string key="windowRectAsNSRect">{{235, 449}, {481, 158}}</string>
 				<string key="autoScreenRectAsNSRect">{{0, 0}, {1024, 768}}</string>
 				<integer value="0" key="helpTagDisplaySide"/>
-				<reference key="instantiationProperties" ref="0"/>
+				<array key="instantiationProperties"/>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -3783,7 +3789,14 @@ WFgnLg</string>
 					</object>
 				</array>
 			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties"/>
+			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="184.IBEditorWindowLastContentRect">{{463, 688}, {292, 93}}</string>
+				<string key="250.IBEditorWindowLastContentRect">{{329, 529}, {568, 241}}</string>
+				<string key="250.IBWindowTemplateEditedContentRect">{{329, 529}, {568, 241}}</string>
+				<string key="289.IBEditorWindowLastContentRect">{{329, 451}, {408, 296}}</string>
+				<string key="289.IBWindowTemplateEditedContentRect">{{329, 451}, {408, 296}}</string>
+				<string key="29.IBEditorWindowLastContentRect">{{329, 758}, {134, 23}}</string>
+			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
@@ -3795,7 +3808,7 @@ WFgnLg</string>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCarbonFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CarbonPlugin.macosx</string>
-			<integer value="1030" key="NS.object.0"/>
+			<integer value="1050" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<nil key="IBDocument.LastKnownRelativeProjectPath"/>

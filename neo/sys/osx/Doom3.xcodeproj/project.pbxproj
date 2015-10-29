@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2DFD49BF147F5F1000C51B13 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFD49BE147F5F1000C51B13 /* libcurl.dylib */; };
+		5540A7F81BE2C48E00BC0F09 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5540A7F71BE2C48E00BC0F09 /* OpenAL.framework */; };
+		5540A8901BE2C5AE00BC0F09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5540A84E1BE2C53C00BC0F09 /* MainMenu.xib */; };
 		812258110912BC79005D34B9 /* snd_efxfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8122565F0912BC78005D34B9 /* snd_efxfile.cpp */; };
 		812258120912BC79005D34B9 /* GEWindowWrapper_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */; };
 		812258130912BC79005D34B9 /* edit_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812256630912BC79005D34B9 /* edit_stub.cpp */; };
@@ -234,7 +236,6 @@
 		81225A000912C27D005D34B9 /* Doom3.icns in Resources */ = {isa = PBXBuildFile; fileRef = 812259FE0912C27C005D34B9 /* Doom3.icns */; };
 		81225A0D0912C2D3005D34B9 /* ASLCore.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81225A0B0912C2D3005D34B9 /* ASLCore.nib */; };
 		81225A100912C2E9005D34B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81225A0E0912C2E9005D34B9 /* Localizable.strings */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -261,25 +262,11 @@
 			remoteGlobalIDString = 81C858490912AD370095BC33;
 			remoteInfo = idlib_nopic;
 		};
-		812259830912BF2B005D34B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 812259790912BF1D005D34B9 /* idlib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 81C858480912AD370095BC33;
-			remoteInfo = idlib_nopic;
-		};
 		8122598E0912BF38005D34B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 812259890912BF38005D34B9 /* oggVorbis.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC046055464E500DB518D;
-			remoteInfo = oggVorbis_nopic;
-		};
-		812259900912BF43005D34B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 812259890912BF38005D34B9 /* oggVorbis.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC045055464E500DB518D;
 			remoteInfo = oggVorbis_nopic;
 		};
 		81225B8A0912C731005D34B9 /* PBXContainerItemProxy */ = {
@@ -289,13 +276,6 @@
 			remoteGlobalIDString = D2AAC0630554660B00DB518D;
 			remoteInfo = game;
 		};
-		81225B8C0912C73C005D34B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81225B840912C731005D34B9 /* game.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC0620554660B00DB518D;
-			remoteInfo = game;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -303,10 +283,14 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = d3xp.xcodeproj; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		2DFD49BE147F5F1000C51B13 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DFD49BE147F5F1000C51B13 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		5540A7F71BE2C48E00BC0F09 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		5540A8451BE2C53C00BC0F09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ASLCore.xib; sourceTree = "<group>"; };
+		5540A84F1BE2C53C00BC0F09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5540A8511BE2C53C00BC0F09 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/ASLCore.xib; sourceTree = "<group>"; };
+		5540A8551BE2C53C00BC0F09 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55CB2F411BE2AE25007A46E8 /* macosx_sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macosx_sys.h; sourceTree = "<group>"; };
 		8122565F0912BC78005D34B9 /* snd_efxfile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = snd_efxfile.cpp; path = ../../sound/snd_efxfile.cpp; sourceTree = SOURCE_ROOT; };
 		812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GEWindowWrapper_stub.cpp; path = ../../tools/guied/GEWindowWrapper_stub.cpp; sourceTree = SOURCE_ROOT; };
@@ -656,7 +640,6 @@
 		81225A0C0912C2D3005D34B9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASLCore.nib; sourceTree = "<group>"; };
 		81225A0F0912C2E9005D34B9 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225A110912C300005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ASLCore.nib; sourceTree = "<group>"; };
-		81225A120912C310005D34B9 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		81225A130912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81225A140912C323005D34B9 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81225B840912C731005D34B9 /* game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = game.xcodeproj; sourceTree = "<group>"; };
@@ -669,6 +652,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5540A7F81BE2C48E00BC0F09 /* OpenAL.framework in Frameworks */,
 				812259940912BF87005D34B9 /* liboggVorbis_nopic.a in Frameworks */,
 				812259930912BF7F005D34B9 /* libidlib_nopic.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
@@ -683,18 +667,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				812259B40912C056005D34B9 /* CoreAudio.framework */,
-				812259A30912BFDC005D34B9 /* Carbon.framework */,
-				812259A40912BFDC005D34B9 /* IOKit.framework */,
-				812259A60912BFDC005D34B9 /* OpenGL.framework */,
-				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -724,7 +696,6 @@
 		29B97314FDCFA39411CA2CEA /* Doom3 */ = {
 			isa = PBXGroup;
 			children = (
-				2DFD49BE147F5F1000C51B13 /* libcurl.dylib */,
 				55CB2F3E1BE2AB11007A46E8 /* Subprojects */,
 				812256420912BC26005D34B9 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -742,8 +713,9 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				81225A0E0912C2E9005D34B9 /* Localizable.strings */,
+				5540A8441BE2C53C00BC0F09 /* ASLCore.xib */,
+				5540A84E1BE2C53C00BC0F09 /* MainMenu.xib */,
 				81225A0B0912C2D3005D34B9 /* ASLCore.nib */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -751,7 +723,13 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				5540A7F71BE2C48E00BC0F09 /* OpenAL.framework */,
+				2DFD49BE147F5F1000C51B13 /* libcurl.dylib */,
+				812259B40912C056005D34B9 /* CoreAudio.framework */,
+				812259A30912BFDC005D34B9 /* Carbon.framework */,
+				812259A40912BFDC005D34B9 /* IOKit.framework */,
+				812259A60912BFDC005D34B9 /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -761,7 +739,6 @@
 			isa = PBXGroup;
 			children = (
 				25DD882E0B31F5F00079B759 /* d3xp.xcodeproj */,
-				81326DC1099C162D003C4788 /* curl.xcodeproj */,
 				812259790912BF1D005D34B9 /* idlib.xcodeproj */,
 				812259890912BF38005D34B9 /* oggVorbis.xcodeproj */,
 				81225B840912C731005D34B9 /* game.xcodeproj */,
@@ -1318,9 +1295,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				812259840912BF2B005D34B9 /* PBXTargetDependency */,
-				812259910912BF43005D34B9 /* PBXTargetDependency */,
-				81225B8D0912C73C005D34B9 /* PBXTargetDependency */,
 			);
 			name = "Doom 3";
 			productInstallPath = "$(HOME)/Applications";
@@ -1418,11 +1392,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				812259FF0912C27D005D34B9 /* Doom 3.rsrc in Resources */,
 				81225A000912C27D005D34B9 /* Doom3.icns in Resources */,
 				81225A0D0912C2D3005D34B9 /* ASLCore.nib in Resources */,
+				5540A8901BE2C5AE00BC0F09 /* MainMenu.xib in Resources */,
 				81225A100912C2E9005D34B9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1655,24 +1629,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		812259840912BF2B005D34B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = idlib_nopic;
-			targetProxy = 812259830912BF2B005D34B9 /* PBXContainerItemProxy */;
-		};
-		812259910912BF43005D34B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = oggVorbis_nopic;
-			targetProxy = 812259900912BF43005D34B9 /* PBXContainerItemProxy */;
-		};
-		81225B8D0912C73C005D34B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = game;
-			targetProxy = 81225B8C0912C73C005D34B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -1683,13 +1639,22 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		5540A8441BE2C53C00BC0F09 /* ASLCore.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
-				81225A120912C310005D34B9 /* French */,
+				5540A8451BE2C53C00BC0F09 /* English */,
+				5540A8511BE2C53C00BC0F09 /* French */,
 			);
-			name = MainMenu.nib;
+			name = ASLCore.xib;
+			sourceTree = "<group>";
+		};
+		5540A84E1BE2C53C00BC0F09 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5540A84F1BE2C53C00BC0F09 /* English */,
+				5540A8551BE2C53C00BC0F09 /* French */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		81225A0B0912C2D3005D34B9 /* ASLCore.nib */ = {

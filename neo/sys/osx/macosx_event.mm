@@ -180,8 +180,11 @@ void Sys_ShutdownInput( void ) {
     common->Printf( "------------------------------\n" );
 }
 
+CG_EXTERN void CGGetLastMouseDelta(int32_t *deltaX, int32_t *deltaY)
+CG_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_NA);
+
 void processMouseMovedEvent( NSEvent *mouseMovedEvent ) {
-    CGMouseDelta dx, dy;
+    int32_t dx, dy;
     
     if ( !mouseActive ) {
         return;

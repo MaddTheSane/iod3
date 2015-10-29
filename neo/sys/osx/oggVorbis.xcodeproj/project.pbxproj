@@ -441,7 +441,6 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -470,7 +469,6 @@
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 1;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = ../../sound/OggVorbis/vorbissrc/;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
@@ -486,7 +484,6 @@
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = ../../sound/OggVorbis/vorbissrc/;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = (

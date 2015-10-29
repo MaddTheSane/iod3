@@ -3,3 +3,4 @@ site.conf
 scons.signature.dblite
 *.pyc
 scons.signatures.dblite
+.DS_Store

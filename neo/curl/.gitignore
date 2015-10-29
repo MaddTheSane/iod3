@@ -1,0 +1,5 @@
+.deps/
+Makefile
+*.spec
+config.h
+libtool

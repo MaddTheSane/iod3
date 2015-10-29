@@ -844,6 +844,7 @@
 					MACOS_X,
 					GAME_DLL,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx10.5;
 				VALID_ARCHS = i386;
@@ -861,6 +862,7 @@
 					MACOS_X,
 					GAME_DLL,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = (
 					"-finline",

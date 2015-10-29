@@ -364,7 +364,7 @@
 		81C857C70912AD0D0095BC33 /* Token.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Token.cpp; path = ../../idlib/Token.cpp; sourceTree = SOURCE_ROOT; };
 		81C857C80912AD0D0095BC33 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Token.h; path = ../../idlib/Token.h; sourceTree = SOURCE_ROOT; };
 		81C858490912AD370095BC33 /* libidlib_nopic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libidlib_nopic.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C858D80912ADD80095BC33 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		81C858D80912ADD80095BC33 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D2AAC046055464E500DB518D /* libidlib_pic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libidlib_pic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

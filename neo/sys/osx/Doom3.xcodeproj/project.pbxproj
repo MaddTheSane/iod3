@@ -12,6 +12,7 @@
 		5540A8901BE2C5AE00BC0F09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5540A84E1BE2C53C00BC0F09 /* MainMenu.xib */; };
 		5540A8A01BE2CCB500BC0F09 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5540A89F1BE2CCB500BC0F09 /* Media.xcassets */; };
 		5540A8A71BE2CDF100BC0F09 /* PreferencesDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5540A8A61BE2CDF100BC0F09 /* PreferencesDialog.xib */; };
+		558F589B1BE360D70057093D /* DOOMPreferecnesWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 558F589A1BE360D70057093D /* DOOMPreferecnesWindowController.mm */; };
 		812258110912BC79005D34B9 /* snd_efxfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8122565F0912BC78005D34B9 /* snd_efxfile.cpp */; };
 		812258120912BC79005D34B9 /* GEWindowWrapper_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */; };
 		812258130912BC79005D34B9 /* edit_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 812256630912BC79005D34B9 /* edit_stub.cpp */; };
@@ -293,6 +294,8 @@
 		5540A8551BE2C53C00BC0F09 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5540A89F1BE2CCB500BC0F09 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5540A8A61BE2CDF100BC0F09 /* PreferencesDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesDialog.xib; sourceTree = "<group>"; };
+		558F58991BE360D70057093D /* DOOMPreferecnesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOOMPreferecnesWindowController.h; sourceTree = "<group>"; };
+		558F589A1BE360D70057093D /* DOOMPreferecnesWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DOOMPreferecnesWindowController.mm; sourceTree = "<group>"; };
 		55CB2F411BE2AE25007A46E8 /* macosx_sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macosx_sys.h; sourceTree = "<group>"; };
 		8122565F0912BC78005D34B9 /* snd_efxfile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = snd_efxfile.cpp; sourceTree = "<group>"; };
 		812256620912BC78005D34B9 /* GEWindowWrapper_stub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GEWindowWrapper_stub.cpp; sourceTree = "<group>"; };
@@ -918,6 +921,8 @@
 				812256A90912BC79005D34B9 /* macosx_local.h */,
 				812256AA0912BC79005D34B9 /* DOOMController.h */,
 				812256AB0912BC79005D34B9 /* DOOMController.mm */,
+				558F58991BE360D70057093D /* DOOMPreferecnesWindowController.h */,
+				558F589A1BE360D70057093D /* DOOMPreferecnesWindowController.mm */,
 			);
 			name = osx;
 			sourceTree = SOURCE_ROOT;
@@ -1468,6 +1473,7 @@
 				8122586B0912BC79005D34B9 /* cg_explicit.cpp in Sources */,
 				8122586C0912BC79005D34B9 /* Cinematic.cpp in Sources */,
 				8122586D0912BC79005D34B9 /* draw_arb.cpp in Sources */,
+				558F589B1BE360D70057093D /* DOOMPreferecnesWindowController.mm in Sources */,
 				8122586E0912BC79005D34B9 /* draw_arb2.cpp in Sources */,
 				8122586F0912BC79005D34B9 /* draw_common.cpp in Sources */,
 				812258710912BC79005D34B9 /* draw_exp_stub.cpp in Sources */,

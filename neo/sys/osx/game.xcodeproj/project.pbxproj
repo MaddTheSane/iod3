@@ -784,14 +784,12 @@
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
 				MAIN_CPP_DEFINES = _DEBUG;
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fpermissive",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = game;
-				SDKROOT = macosx;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -815,7 +813,6 @@
 				);
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-finline",
 					"-finline-limit=1000",
@@ -828,7 +825,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = game;
-				SDKROOT = macosx;
 				SYMROOT = build;
 				ZERO_LINK = NO;
 			};
@@ -838,6 +834,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
@@ -847,7 +844,6 @@
 					MACOS_X,
 					GAME_DLL,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -859,6 +855,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -866,7 +863,6 @@
 					MACOS_X,
 					GAME_DLL,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = (
 					"-finline",

@@ -425,9 +425,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = oggVorbis_nopic;
-				SDKROOT = macosx;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -442,7 +440,6 @@
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-finline",
 					"-finline-limit=1000",
@@ -454,7 +451,6 @@
 					"-fpermissive",
 				);
 				PRODUCT_NAME = oggVorbis_nopic;
-				SDKROOT = macosx;
 				SYMROOT = build;
 				ZERO_LINK = NO;
 			};
@@ -463,7 +459,8 @@
 		8125B8360912BA3100492E1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_MODEL_TUNING = "";
@@ -471,15 +468,16 @@
 				GCC_OPTIMIZATION_LEVEL = 1;
 				HEADER_SEARCH_PATHS = ../../sound/OggVorbis/vorbissrc/;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
 		8125B8370912BA3100492E1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
@@ -497,7 +495,6 @@
 					"-fno-common",
 				);
 				SDKROOT = macosx;
-				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
